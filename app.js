@@ -45,8 +45,6 @@ function buttonFunction(e) {
         }
     }
 
-
-
     operatorFunction(e);
 
 }
@@ -162,104 +160,4 @@ function operatorFunction(e){
 
 }
 
-    /* if (e.target.className =="background main__numbers--multiplication") {
-        console.log(memoryOperation.innerHTML.length);
-        if (result.innerHTML.length == 0) {
-            operator.innerHTML = "&#215;"
-        }else if (memoryOperation.innerHTML.length == 0) {
-            memoryOperation.innerHTML = result.innerHTML ;
-            operator.innerHTML = "&#215;";
-            result.innerHTML = "";
-        }else{
-            memoryOperation.innerHTML = +(memoryOperation.innerHTML) * +(result.innerHTML);
-            result.innerHTML = "";
-            operator.innerHTML = "&#215;";  
-        }
-    };
-    if (e.target.className =="background main__numbers--divide") {
-        console.log(memoryOperation.innerHTML);
-        if (memoryOperation.innerHTML.length == 0) {
-            memoryOperation.innerHTML = result.innerHTML ;
-            operator.innerHTML = "&#247;";
-            result.innerHTML = "";
-        }else if( result.innerHTML.length == 0) {
-            operator.innerHTML = "&#247;"
-        }
-        else{
-            memoryOperation.innerHTML = Number(memoryOperation.innerHTML) / +(result.innerHTML);
-            result.innerHTML = "";
-            operator.innerHTML = "&#247;";   
-        }
-    };
-    if (e.target.className =="background main__numbers--extraction") {
-        console.log(memoryOperation.innerHTML);
-        if (memoryOperation.innerHTML.length == 0) {
-            memoryOperation.innerHTML = result.innerHTML ;
-            operator.innerHTML = "&#8722;";
-            result.innerHTML = "";
-        }else if( result.innerHTML.length == 0) {
-            operator.innerHTML = "&#8722;"
-        }
-        else{
-            memoryOperation.innerHTML = Number(memoryOperation.innerHTML) - +(result.innerHTML);
-            result.innerHTML = "";
-            operator.innerHTML = "&#8722;";   
-        }
-    };
-
-    if (e.target.className =="background main__numbers--plus") {
-        console.log(memoryOperation.innerHTML);
-        if (memoryOperation.innerHTML.length == 0) {
-            memoryOperation.innerHTML = result.innerHTML ;
-            operator.innerHTML = "&#43;";
-            result.innerHTML = "";
-        }else if( result.innerHTML.length == 0) {
-            operator.innerHTML = "&#43;"
-        }
-        else{
-            memoryOperation.innerHTML = Number(memoryOperation.innerHTML) + +(result.innerHTML);
-            result.innerHTML = "";
-            operator.innerHTML = "&#43;";   
-        }
-    };
-
-    if (e.target.className =="background main__numbers--equals") {
-        console.log(memoryOperation.innerHTML);
-        if (memoryOperation.innerHTML.length == 0) {
-            memoryOperation.innerHTML = result.innerHTML ;
-        }else{
-            console.log(operator.innerHTML);
-            if (result.innerHTML =="") {
-                memoryOperation.innerHTML ="";
-                operator.innerHTML = "";
-                return
-            }else{
-                switch (operator.innerHTML) {
-                    case "+":
-                        result.innerHTML = Number(memoryOperation.innerHTML) + +(result.innerHTML);
-                        memoryOperation.innerHTML ="";
-                        operator.innerHTML = "" 
-                        break;
-                    case "−":
-                        result.innerHTML = Number(memoryOperation.innerHTML) - +(result.innerHTML);
-                        memoryOperation.innerHTML ="";
-                        operator.innerHTML = "" ;
-                        break;
-    
-                    case "×":
-                        result.innerHTML = Number(memoryOperation.innerHTML) * +(result.innerHTML);
-                        memoryOperation.innerHTML ="";
-                        operator.innerHTML = "" ;
-                        break;
-    
-                    case "÷":
-                        result.innerHTML = Number(memoryOperation.innerHTML) / +(result.innerHTML);
-                        memoryOperation.innerHTML ="";
-                        operator.innerHTML = "" ;
-                        break;
-                    default:
-                        break;
-                }
-        }
-        }
-    }; */
+  
