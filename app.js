@@ -1,15 +1,7 @@
-/* let buttons = document.getElementsByClassName("background");
-console.log(buttons); 
-let numbers = document.getElementsByClassName("number");
-console.log(numbers); */
-
 let result =document.getElementsByClassName("main__result--second")[0];
 let memoryOperation = document.getElementsByClassName("main__result--first")[0];
-let operator = document.getElementsByClassName("main__result--first")[1]
-
-
+let operator = document.getElementsByClassName("main__result--first")[1];
 let buttons = document.getElementsByClassName("main__numbers")[0];
-
 
 buttons.addEventListener("click", buttonFunction );
 
